@@ -1,10 +1,10 @@
-import Header from "./components/Header";
-
+import Navigation from "./components/Navigation";
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Header text='Magbank é incrivel!' color="#f00" />
+      <Navigation />
     </div>
   );
 }
