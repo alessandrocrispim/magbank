@@ -8,7 +8,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navigation.scss";
 import logo from "../assets/logo.svg"
 
-function Navigation() {
+function Navigation({handleCreatAcc}) {
   return (
     <Navbar variant="dark" expand="lg">
       <Container>
@@ -44,7 +44,7 @@ function Navigation() {
                 </NavDropdown.Item>
               </NavDropdown>
             </Button>
-            <Button variant="outline-light">Abra sua conta</Button>
+            <Button variant="outline-light" onClick={handleCreatAcc}>Abra sua conta</Button>
           </ButtonGroup>
         </Navbar.Collapse>
       </Container>

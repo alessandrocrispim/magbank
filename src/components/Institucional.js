@@ -4,7 +4,7 @@ import IconText from './IconText';
 import "./Institucional.scss";
 import {  faGlobe, faMobile, faMobileAlt, faShieldAlt } from '@fortawesome/free-solid-svg-icons';
 
-const Institucional = () => {
+const Institucional = ({onClick}) => {
   return (
     <section className="institutional text-light py-5">
       <Container>
@@ -22,20 +22,31 @@ const Institucional = () => {
               reprehenderit suscipit fugit eum atque?
             </p>
 
-            <IconText icon={faMobileAlt}  color="#fff" textClassName="mb-3 ">
-              Sem fila e sem burocracia
-            </IconText>
-            <IconText icon={faMobile} color="#fff" textClassName="mb-3">
-              Simples e prático
-            </IconText>
-            <IconText icon={faGlobe} color="#fff" textClassName="mb-3">
-              Abertura de conta 100% online
-            </IconText>
-            <IconText icon={faShieldAlt} color="#fff" textClassName="mb-3">
-              Transações mais seguras
-            </IconText>
+            <div className="px-3 px-md-0 ">
+              <IconText
+                icon={faMobileAlt}
+                color="#fff"
+                textClassName="mb-5"
+                
+              >
+                Sem fila e sem burocracia
+              </IconText>
+              <IconText icon={faMobile} color="#fff" textClassName="mb-5">
+                Simples e prático
+              </IconText>
+              <IconText icon={faGlobe} color="#fff" textClassName="mb-5">
+                Abertura de conta 100% online
+              </IconText>
+              <IconText icon={faShieldAlt} color="#fff" textClassName="mb-5">
+                Transações mais seguras
+              </IconText>
+            </div>
 
-            <Button variant='outline-light' className="mt-5 px-4">
+            <Button
+              variant="outline-light"
+              className="mt-5 px-4"
+              onClick={onClick}
+            >
               Abra sua conta
             </Button>
           </Col>
