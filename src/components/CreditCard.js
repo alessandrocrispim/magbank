@@ -45,7 +45,7 @@ const CreditCard = () => {
                 icon={faMobile}
                 size={2}
                 color="#f05656"
-                textClassName="h5 text-muted  "
+                textClassName="h5 text-muted "
               >
                 APP
               </IconText>

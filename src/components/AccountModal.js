@@ -27,7 +27,7 @@ const AccountModal = ({show, handleClose}) => {
               <option value="1">Florianópolis - SC</option>
               <option value="2">Curitiba - PR</option>
               <option value="3">São Paulo - SP</option>
-              <option value="3">Rio de Janeiro - RJ</option>
+              <option value="4">Rio de Janeiro - RJ</option>
             </Form.Select>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicCheckbox">

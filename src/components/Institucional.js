@@ -23,23 +23,23 @@ const Institucional = ({onClick}) => {
             </p>
 
             <div className="px-3 px-md-0 ">
-              <IconText
-                icon={faMobileAlt}
-                color="#fff"
-                textClassName="mb-5"
-                
-              >
+              
+              <IconText icon={faMobileAlt} color="#fff" textClassName="mb-5">
                 Sem fila e sem burocracia
               </IconText>
+
               <IconText icon={faMobile} color="#fff" textClassName="mb-5">
                 Simples e prático
               </IconText>
+
               <IconText icon={faGlobe} color="#fff" textClassName="mb-5">
                 Abertura de conta 100% online
               </IconText>
+
               <IconText icon={faShieldAlt} color="#fff" textClassName="mb-5">
                 Transações mais seguras
               </IconText>
+
             </div>
 
             <Button
