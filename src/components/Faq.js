@@ -52,7 +52,7 @@ const Faq = () => {
         <Row className="d-flex justify-content-center mb-5">
           <h2 className="faq-title my-5">Dúvidas frequentes</h2>
         </Row>
-        <Row className="align-items-start justify-content-center">
+        <Row className=" align-items-start justify-content-center">
           <Col className="d-md-none mb-4" xs={12}>
             <Row>
               {options.map(({ icon }, key) => (

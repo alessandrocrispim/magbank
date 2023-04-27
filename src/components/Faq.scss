@@ -23,6 +23,7 @@ div.card {
   background-color: unset;
   .card-header {
     background-color: $color-faq-header;
+    border: none;
     button {
       background-color: unset;
     }

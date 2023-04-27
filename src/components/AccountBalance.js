@@ -27,7 +27,7 @@ const AccountBalance = ({ data }) => {
         <Button variant="secondary">Ver extrato</Button>
       </Col>
       <Col xs={12} lg={5} className="mt-lg-5 pt-lg-5">
-        <Tabs className=" mt-5 pt-lg-5" defaultActiveKey="latest">
+        <Tabs className=" mt-5 pt-lg-5" defaultActiveKey="latestBalance">
           <Tab eventKey="latestBalance" title="Últimos Lançamentos">
             <Table striped borderless>
               <thead>
